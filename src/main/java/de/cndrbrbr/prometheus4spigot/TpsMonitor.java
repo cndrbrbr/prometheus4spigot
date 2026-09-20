@@ -1,4 +1,4 @@
-package de.schule.prometheus;
+package de.cndrbrbr.prometheus4spigot;
 
 public class TpsMonitor implements Runnable {
 

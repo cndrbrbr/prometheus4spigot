@@ -1,4 +1,4 @@
-package de.schule.prometheus;
+package de.cndrbrbr.prometheus4spigot;
 
 import io.prometheus.metrics.core.metrics.Gauge;
 import org.bukkit.World;
