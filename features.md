@@ -1,3 +1,11 @@
+# non functions
+- Der Minecraft-Server muss nicht von überall auf Port 9940 erreichbar sein. Idealerweise darf nur der zentrale Prometheus-Server darauf zugreifen.  
+- Die aktuelle Prometheus-Java-Library bringt schon einen fertigen HTTP-Server mit /metrics mit
+- keine Spielernamen
+- Servernamen wahrscheinlich  zentral in Prometheus konfigurieren
+- Der Minecraft-Server muss nicht von überall auf Port 9940 erreichbar sein, es reicht wenn der zentrale grafana oder prometheus server zugreifen kann  
+- 
+
 # functions
 minecraft_players_online  
 minecraft_players_max  
@@ -23,6 +31,9 @@ spigot-prometheus-exporter/
         └── resources/  
             ├── plugin.yml  
             └── config.yml  
+
+# später
+Spieler-Logins, Deaths, Join/Leave-Counter, Plugin-Zahl, Weltgrößen, Tick-Zeiten  
 
 # config.yml
 metrics:  
