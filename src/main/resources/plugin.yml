@@ -1,6 +1,6 @@
 name: Prometheus4spigot
 version: 0.1.0
-main: de.cndrbrbr.prometheus4spigot
+main: de.cndrbrbr.prometheus4spigot.Prometheus4Spigot
 api-version: '26.3'
 
 description: Prometheus metrics exporter for Spigot

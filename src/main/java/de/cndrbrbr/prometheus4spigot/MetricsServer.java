@@ -5,7 +5,7 @@ import io.prometheus.metrics.exporter.httpserver.HTTPServer;
 import java.io.IOException;
 import java.net.InetAddress;
 
-public class src/main/resources/plugin.yml {
+public class MetricsServer {
 
     private HTTPServer server;
 

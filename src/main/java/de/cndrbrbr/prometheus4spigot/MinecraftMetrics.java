@@ -5,7 +5,7 @@ import org.bukkit.World;
 
 public class MinecraftMetrics {
 
-    private final PrometheusExporter plugin;
+    private final Prometheus4Spigot plugin;
     private final TpsMonitor tpsMonitor;
 
     private Gauge playersOnline;
@@ -19,7 +19,7 @@ public class MinecraftMetrics {
     private Gauge worlds;
 
     public MinecraftMetrics(
-            PrometheusExporter plugin,
+            Prometheus4Spigot plugin,
             TpsMonitor tpsMonitor) {
 
         this.plugin = plugin;
